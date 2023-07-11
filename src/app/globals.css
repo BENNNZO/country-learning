@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.world_map {
+    @apply fill-slate-100 stroke-slate-500 stroke-1;
+}
+
+.world_map path {
+    @apply transition-all;
+}
+
+.world_map path:hover {
+    @apply fill-slate-500;
+}
