@@ -7,7 +7,7 @@
 }
 
 .world_map path {
-    @apply transition-all;
+    /* @apply transition-all; */
 }
 
 .world_map path:hover {
